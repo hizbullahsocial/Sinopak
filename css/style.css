@@ -1,5 +1,5 @@
-:root {
-    --primary: #e75480; /* Pink color for salt theme */
+/*:root {
+    --primary: #e75480; /* Pink color for salt theme 
     --primary-dark: #c4456c;
     --secondary: #2c3e50;
     --light: #f9f9f9;
@@ -9,7 +9,25 @@
     --border-radius: 5px;
     --shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
     --transition: all 0.3s ease;
+}*/
+:root {
+    /* Primary colors */
+    --primary: #213C51;       /* Deep Blue-Gray — professional, corporate */
+    --primary-light: #6594B1; /* Muted Sky Blue — soft & approachable */
+    --primary-accent: #DDA0C1;/* Pinkish Lavender — nod to pink salt, slightly stronger */
+    
+    /* Neutral colors */
+    --light: #EEEEEE;         /* Clean off-white background */
+    --dark: #333333;          /* Text, contrast, and emphasis */
+    --gray: #777777;          /* Secondary text / muted elements */
+    --light-gray: #F5F5F5;    /* Cards, sections, or hover backgrounds */
+
+    /* UI & layout */
+    --border-radius: 6px;
+    --shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    --transition: all 0.3s ease;
 }
+
 
 * {
     margin: 0;
