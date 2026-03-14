@@ -21,8 +21,7 @@
     --dark: #333333;          /* Text, contrast, and emphasis */
     --gray: #777777;          /* Secondary text / muted elements */
     --light-gray: #F5F5F5;    /* Cards, sections, or hover backgrounds */
-
-    /* UI & layout */
+    --secondary: #3    /* UI & layout */
     --border-radius: 6px;
     --shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
     --transition: all 0.3s ease;
@@ -653,6 +652,7 @@ footer {
 
 .footer-column h3 {
     color: white;
+    color: white;
     font-size: 1.3rem;
     margin-bottom: 25px;
     position: relative;
@@ -678,7 +678,8 @@ footer {
 }
 
 .footer-column ul li a {
-    color: rgba(255, 255, 255, 0.8);
+    /*color: rgba(255, 255, 255, 0.8);*/
+    color: var(--primary);
     text-decoration: none;
     transition: var(--transition);
 }
@@ -702,7 +703,8 @@ footer {
     height: 40px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
-    color: white;
+    /*color: white;*/
+    color: var(--primary);
     text-decoration: none;
     transition: var(--transition);
 }
